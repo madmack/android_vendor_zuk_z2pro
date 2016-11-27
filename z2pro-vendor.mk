@@ -4,4 +4,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprieta
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprietary/bin,system/bin)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprietary/etc,system/etc)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprietary/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/zuk/z2pro/proprietary/lib64,system/lib64)
 -include vendor/extra/devices.mk
